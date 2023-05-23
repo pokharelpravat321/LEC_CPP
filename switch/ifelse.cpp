@@ -15,7 +15,7 @@ int main() {
   }
   else
   {
-    cout<<"just sucide bro" << number << endl;
+    cout<<"try again" << number << endl;
   }
 
 
