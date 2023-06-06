@@ -1,16 +1,17 @@
 #include <iostream>
+using namespace std;
 class MyClass 
 {
 public:
     void memberFunction() 
     {
-        std::cout << "This is a member function." << std::endl;
+        cout << "This is a member function." << std::endl;
     }
 };
 
 void nonMemberFunction() 
 {
-    std::cout << "This is a non-member function." << std::endl;
+    cout << "This is a non-member function." << std::endl;
 }
 
 int main() 
