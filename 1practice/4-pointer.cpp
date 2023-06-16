@@ -1,31 +1,26 @@
 #include<iostream>
 using namespace std;
-namespace n1
-{
-    int X=2;
-    void fun()
-    {
-cout <<"this is fun() of n1"<< endl;
 
-
-    
-}
-}                                              
-namespace n2
-{
-int X=5;
-void fun()
-{
-    cout<<n1::X<< endl;
-    n2::fun();
+void swap(int &a, int &b) {
+    int temp = a;
+    a = b;
+    b = temp;
 }
 
+void getnum(int &a, int &b) {
+    cout << "Enter the value of a: ";
+    cin >> a;
+    cout << "Enter the value of b: ";
+    cin >> b;
 }
-int main()
-{
-    cout <<n1::X << endl;
-    n1::fun();
-     cout <<n2::X << endl;
-     n2::fun();
-     return 0;
+
+int main() {
+    int num1, num2;
+    getnum(num1, num2);
+
+    cout << "Values before swap: " << num1 << ", " << num2 << endl;
+    swap(num1, num2);
+    cout << "Values after swap: " << num1 << ", " << num2 << endl;
+
+    return 0;
 }
