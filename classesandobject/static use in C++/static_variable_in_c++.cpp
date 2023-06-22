@@ -12,7 +12,7 @@ class add{
         cin>>b;
         s=a+b;
         cout<<"the sum is :"<<s<<endl;
-        a=a+1;
+       a=a+1;
 
     }
 
