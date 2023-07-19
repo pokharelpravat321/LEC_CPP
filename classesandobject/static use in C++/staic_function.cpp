@@ -9,19 +9,19 @@ class hello{
     static int a;
     int s,b;
     public:
-    void getdata(int x);
+    void getdata(int x){
+b=x;
+s=a+b;
+cout<<s<<endl;
+a=a+5;
+}
     static void add(){
         cout<<a<<endl;
 
     }
 };
 int hello::a=9;
-void hello::getdata(int x){
-b=x;
-s=a+b;
-cout<<s<<endl;
-a=a+5;
-}
+
 int main(){
     int x;
     cout<<"enter the value of x";
