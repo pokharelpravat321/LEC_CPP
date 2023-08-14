@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 
     double a, b, div;
-
+ 
     cout << "Enter numerator: ";
     cin >> a;
 
