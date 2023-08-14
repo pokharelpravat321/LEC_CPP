@@ -12,16 +12,24 @@ class add{
 
 
     }
-    void display(add x,add y){
+    int display(add x,add y){
         sum=x.a+y.a;
-        cout<<"the sum of two numbers is:"<<sum;
+        return add(sum)
+       // cout<<"the sum of two numbers is:"<<sum;
     }
+    int displayy(add y)
+    (int p= y.a;
+     return p;
+      
+    )
 };
 int main(){
     add a2,a1;
     a2.getdata();
     a1.getdata();
-    a1.display(a2,a1);
+
+    add a4=a1.display(a2,a1);
+    cout<<"the sum of two numbers is:"<<a4.displayy();
     return 0;
 }
 
