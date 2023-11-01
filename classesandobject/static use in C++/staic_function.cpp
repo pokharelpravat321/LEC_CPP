@@ -20,7 +20,7 @@ a=a+5;
 
     }
 };
-int hello::a=9;
+int hello::a=0;
 
 int main(){
     int x;
